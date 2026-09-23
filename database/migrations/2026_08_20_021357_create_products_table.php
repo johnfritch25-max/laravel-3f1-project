@@ -16,9 +16,9 @@ return new class extends Migration
             $table->string('name');
             $table->string('slug')->unique();
             $table->string('category'); 
+            $table->unsignedBigInteger('category_id')->nullable();
+            $table->text('description')->nullable();
             $table->decimal('price', 10, 2); 
-            $table->integer('quantity'); 
-            $table->string('status'); 
             $table->timestamps(); 
             });
     }

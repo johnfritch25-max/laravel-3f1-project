@@ -15,8 +15,8 @@ class Category extends Model
         'description',
     ];
 
-    public function user()
+    public function products()
     {
-        return $this->belongsTo(User::class);
+        return $this->hasMany(Product::class);
     }
 }

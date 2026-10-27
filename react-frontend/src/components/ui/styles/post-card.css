@@ -1,21 +1,38 @@
-/* Post Card */
-.post-card {
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 1rem 1.25rem;
-    margin-bottom: 0.75rem;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+.post-item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #ffffff;
 }
 
-.post-card__message {
-    margin: 0 0 0.5rem;
+.post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-username {
+    font-weight: 600;
+    color: #333333;
     font-size: 0.95rem;
-    color: #1a1a1a;
-    line-height: 1.5;
 }
 
-.post-card__date {
-    font-size: 0.8rem;
-    color: #999;
+.post-timestamp {
+    color: #888888;
+    font-size: 0.85rem;
+}
+
+.post-message {
+    margin: 0;
+    font-size: 1.05rem;
+    color: #222222;
+    line-height: 1.5;
+    word-break: break-word;
 }

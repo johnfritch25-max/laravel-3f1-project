@@ -1,0 +1,14 @@
+# Laravel
+laravel-f1-project/.env
+laravel-f1-project/vendor/
+laravel-f1-project/node_modules/
+laravel-f1-project/storage/logs/*.log
+laravel-f1-project/bootstrap/cache/*.php
+laravel-f1-project/.phpunit.result.cache
+laravel-f1-project/database/database.sqlite
+
+# React
+react-frontend/node_modules/
+react-frontend/dist/
+react-frontend/.env
+react-frontend/.env.local

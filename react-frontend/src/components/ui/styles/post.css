@@ -80,3 +80,37 @@
 }
  
  
+
+.post-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.post-card h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1a1f26;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post-feed-list {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.post-empty-state {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 0.95rem;
+    padding: 2rem 0;
+}

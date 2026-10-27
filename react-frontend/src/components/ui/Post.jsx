@@ -60,10 +60,11 @@ export default function Post() {
     return (
         <div className="post-container">
             <div className="post-card">
+                <h2>Create Post</h2>
                 <form onSubmit={submit} className="post-form">
                     <textarea
                         value={message}
-                        placeholder="What is happening?!"
+                        placeholder="What's on your mind?"
                         className="post-textarea"
                         onChange={(e) => setMessage(e.target.value)}
                         disabled={processing}
